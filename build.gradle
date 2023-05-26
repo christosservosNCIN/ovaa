@@ -5,9 +5,11 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
-        
-    }
+           }
+           
+       plugins {
+         id("org.sonarqube") version "4.0.0.2929"
+}
     dependencies {
         classpath 'com.android.tools.build:gradle:4.0.0'
     }
@@ -23,10 +25,6 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
-}
-
-plugins {
-  id("org.sonarqube") version "4.0.0.2929"
 }
 
 sonarqube {
