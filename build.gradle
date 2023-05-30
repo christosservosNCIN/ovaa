@@ -29,7 +29,7 @@ task clean(type: Delete) {
 
 sonarqube {
   properties {
-    property("sonar.pullrequest.key", "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")
+    property("sonar.pullrequest.key", "*")
     property("sonar.pullrequest.base", "refs/heads/main")
     property("sonar.projectKey", "christosservos_ovaa")
     property("sonar.organization", "christosservos")
