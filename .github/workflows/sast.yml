@@ -1,9 +1,10 @@
 name: SAST
 on:
   push:
-    paths:
-       - app/**
-
+    branches:
+      - main # or the name of your main branch
+  pull_request:
+    types: [opened, synchronize, reopened]
 jobs:
   run-sast:
     name: Build and run SonarQube analysis
