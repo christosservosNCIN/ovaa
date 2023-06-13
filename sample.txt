@@ -6,3 +6,4 @@ password:testeste
 pass=password
 user=username123
 adafruit_api_token = “22lyl_8yoba93u0__1e7l70ft-6jnjv2”
+hey
