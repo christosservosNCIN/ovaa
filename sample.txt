@@ -3,3 +3,5 @@ password=pass
 username=test
 password=testinggg
 password:testeste
+pass=password
+user=username123
